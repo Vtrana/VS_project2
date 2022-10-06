@@ -39,7 +39,7 @@ def cloning():
     
 # Main code: open file with information (gene names and URLs) and perform web scraping and cloning
 vector_ends()
-with open("Gene_list.csv") as f:
+with open("supp_files/Gene_list.csv") as f:
     reader = csv.reader(f, delimiter="\t")
     next(reader) # skip row with column names
     n = 0 # variabel to hold amount of processed sequences
