@@ -6,7 +6,7 @@ Program allows automatic subcloning of ORF sequences into predefined vector.
 
 ORF sequences are "scrapped" and uploaded from the Origene.com web page.
 
-All created sequences saved in a fasta format in new "cloned_seq.txt" file located in the working directory.
+All created sequences saved in a fasta format in new "cloned_seq.txt" file located in the "supp_files" folder.
 
 ## Installation of required libraries (Windows)
 pip install urllib3 
